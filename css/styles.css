@@ -1,0 +1,512 @@
+/* ==========================================================================
+Custom Styles
+========================================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { 
+	display: block; 
+}
+audio, canvas, video { 
+	display: inline-block; 
+	*display: inline; 
+	*zoom: 1; 
+}
+audio:not([controls]) { 
+	display: none; height: 0; 
+}
+[hidden] { 
+	display: none; 
+}
+/* ==========================================================================
+Base
+========================================================================== */
+html { 
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;  
+}
+
+html, button, input, select, textarea { 
+	font-family: 'Khula', sans-serif;
+}
+
+body { 
+	margin: 0; 
+	font-family: 'Khula', sans-serif;
+	overflow-x: hidden; 
+	background: #;
+}
+html, body { 
+	width: auto !important; 
+	overflow-x: hidden !important; 
+}
+/* ==========================================================================
+Links
+========================================================================== */
+a:focus { 
+	outline: thin dotted; 
+}
+a:active, a:hover { 
+	outline: 0; 
+}
+/* ==========================================================================
+Typography
+========================================================================== */
+h1 { 
+	font-size: 2em; 
+	margin: 0.67em 0; 
+}
+h2 { 
+	font-size: 1.5em; 
+	margin: 0.83em 0; 
+}
+h3 { 
+	font-size: 1.17em; 
+	margin: 1em 0; 
+}
+h4 { 
+	font-size: 1em; 
+	margin: 1.33em 0; 
+}
+h5 { 
+	font-size: 0.83em; 
+	margin: 1.67em 0; 
+}
+h6 { 
+	font-size: 0.75em; 
+	margin: 2.33em 0; 
+}
+
+abbr[title] { 
+	border-bottom: 1px dotted; 
+}
+b, strong { 
+	font-weight: bold; 
+}
+blockquote { 
+	margin: 1em 40px; 
+}
+dfn { 
+	font-style: italic; 
+}
+mark { 
+	background: #ff0; color: #000; 
+}
+p, pre { 
+	margin: 1em 0; 
+}
+
+pre { white-space: pre; 
+	white-space: pre-wrap; 
+	word-wrap: break-word; 
+}
+
+q { 
+	quotes: none; 
+}
+q:before, q:after { 
+	content: ''; 
+	content: none; 
+}
+small { 
+	font-size: 75%; 
+}
+sub, sup { 
+	font-size: 75%; 
+	line-height: 0; 
+	position: relative; 
+	vertical-align: baseline; 
+}
+sup { 
+	top: -0.5em; 
+}
+sub { 
+	bottom: -0.25em; 
+}
+
+/* ==========================================================================
+Lists
+========================================================================== */
+dl, menu, ol, ul { 
+	margin: 1em 0; 
+}
+
+dd { 
+	margin: 0 0 0 40px; 
+}
+
+menu, ol, ul { 
+	padding: 0 0 0 40px; 
+}
+
+nav ul, nav ol { 
+	list-style: none; 
+	list-style-image: none; 
+}
+
+/* ==========================================================================
+Embedded content
+========================================================================== */
+img { 
+	border: 0; /* 1 */
+	-ms-interpolation-mode: bicubic; /* 2 */
+}
+svg:not(:root) { 
+	overflow: hidden; 
+}
+
+/* ==========================================================================
+Headings
+========================================================================== */
+h1.chain { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #282F35; 
+	letter-spacing: 2px; 
+	font-size: 25px; 
+	font-weight: 600;
+}
+
+h1.menuA { 
+	text-align: center; 
+	text-transform: uppercase;
+	color: #282F35; 
+	letter-spacing: 2px; 
+	font-size: 25px; 
+	font-weight: 600;
+}
+h1.menuB { 
+	text-align: center; 
+
+	color: #282F35; 
+	letter-spacing: 2px; 
+	font-size: 20px; 
+	font-weight: 600;
+}
+h1.menuC { 
+	text-align: left; 
+	color: #282F35; 
+	letter-spacing: 2px; 
+	font-size: 20px; 
+	font-weight: 600;
+}
+h2.menuC { 
+	text-align: left; 
+	color: #3A444C;
+	font-size: 18px; 
+}
+
+h2.frame { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #fff; 
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	background: url(../img/frame-icon.png) 
+	no-repeat top center; 
+	padding-top: 65px; 
+	margin-top: 70px; 
+}
+h2.mech { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #fff; 
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	background: url(../img/mech-icon.png) no-repeat top center; 
+	padding-top: 65px; 
+	margin-top: 70px; 
+}
+h2.front-frame { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #fff; 
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	background: url(../img/front-icon.png) no-repeat top center; 
+	padding-top: 65px; 
+	margin-top: 30px; 
+}
+p.front-frametext {
+	text-align: left; 
+	color: #fff; 
+	letter-spacing: 3px; 
+	font-size: 15px;
+	margin-top: 3px; 
+}
+h2.logo-header { 
+	text-align: center; 
+	color: #848789; 
+	letter-spacing: 1px; 
+	font-size: 24px; 
+	font-weight: 300; 
+	background: 
+	url(../img/main-logo.png) no-repeat top center; 
+	padding-top: 120px; 
+	margin: 70px 0 40px 0; 
+	font-style: italic; 
+}
+
+/* ==========================================================================
+User Styles
+========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Khula:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+/* ==========================================================================
+User Styles
+========================================================================== */
+.clearfix:before, .clearfix:after { 
+	content: " "; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.clearfix { 
+	*zoom: 1; 
+}
+.pullcontainer a#pull { 
+	display: none; 
+}
+a { 
+	color: #282f35; -webkit-transition: all .25s ease; 
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease; 
+	-o-transition: all .25s ease; 
+	transition: all .25s ease; 
+}
+a:hover { 
+	color: #990000; 
+	text-decoration: none; 
+}
+p { 
+	text-align: center; 
+	font-size: 14px; 
+	color: #EAEAEA; 
+	font-weight: 300; 
+	word-spacing: 2px; 
+	line-height: 1.8em;
+	 margin-top: 25px; 
+}
+p.text-intro { 
+	font-size: 18px; 
+	color: #3A444C;
+}
+.hero { 
+	background: url(../img/hero-bg.jpg) no-repeat top center #f4f5fc; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 685px; 
+}
+
+nav { 
+	height: 85px; 
+	margin-top: 30px; 
+	position: relative; 
+}
+
+.logo-holder { 
+	background: url(../img/main-logo.png) no-repeat center center; 
+	width: 94px; 
+	height: 85px; 
+	position: absolute; 
+	top: 0; 
+	left: 327px; 
+}
+.responsive-logo { 
+	display: hidden; 
+}
+header { 
+	background-color: #000; 
+}
+header ul { 
+	padding-top: 35px; 
+}
+header ul li { 
+	list-style: none; 
+	float: left; 
+	text-transform: uppercase; 
+	letter-spacing: 2px; 
+}
+header ul li a { 
+	display: block; 
+	margin: 0 30px; 
+	color: #fff; 
+}
+.r_spacer { 
+	margin-right: 180px; 
+}
+.intro { 
+	padding: 100px 0; 
+	background: url(../img/confectionary.png);
+	background-position: right top;
+	
+}
+.menuSpaceA {
+	padding-bottom: 50px;
+}
+.menuSpaceB {
+	padding-bottom: 120px;
+}
+.section-1 { 
+	background: url(../img/left-box-1.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 600px; 
+	position: relative; 
+}
+.section-2 { 
+	background: url(../img/left-box-2.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; height: 600px; 
+	position: relative; 
+}
+.section-3 { 
+	background: url(../img/oldbarrelL.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 600px; position: relative; 
+}
+.section-4 { 
+	background: url(../img/oldbarrelR.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 600px; 
+}
+.section-text { 
+	position: relative; 
+	height: 600px; 
+}
+.nopadding { 
+	padding: 0 !important; 
+	margin: 0 !important;
+	background-color: #000; 
+}
+.thin-sep { 
+	height: 1px; 
+	background-color: #d7d7d7; 
+	width: 50px; 
+	margin: 8% auto 0 auto; 
+}
+.small-featured-img { 
+	height: 200px; 
+	width: 100%; 
+	position: absolute; 
+	bottom: 0; 
+}
+.wine-row { 
+	background: url(../img/wine-row.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+}
+.grapewine { 
+	background: url(../img/grapewine.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+}
+.oldPlace { 
+	background: url(../img/oldPlace.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+}
+.section-text p { 
+	padding: 0 60px; 
+	text-align: justify; 
+}
+.arrow { 
+	background: url(../img/arrow.png) no-repeat center center; 
+	width: 21px; height: 10px; 
+	margin: -1px auto 0 auto; 
+}
+.logo-1 { 
+	width: 657px; height: 50px; 
+	background: url(../img/wine-logo.png) no-repeat; 
+	position: absolute; 
+	left: 50%; top: 50%; 
+	margin-left: -320px; 
+	margin-top: 150px; 
+}
+.logo-2 { 
+	width: 250px; 
+	height: 166px; 
+	background: url(../img/foodwine-logo.png) no-repeat; 
+	position: absolute; 
+	left: 50%; 
+	top: 50%; 
+	margin-top: -80px; 
+	margin-left: 35px; 
+}
+.logo-3 { 
+	width: 208px; 
+	height: 67px; 
+	background: url(../img/oldfashion-sml-logo.png) no-repeat; 
+	position: absolute; left: 50%; top: 50%; 
+	margin-left: -25px; margin-top: -150px; 
+}
+
+
+footer { 
+	background-color: #212121; 
+	padding-top: 35px; 
+	padding-bottom: 35px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.footer-leftside { 
+	text-align: left; 
+}
+footer h1 { 
+	text-align: left; 
+	color: #fff;
+	font-size: 18px; 
+	font-weight: 600; 
+}
+footer h4 { 
+	color: #fff;
+	text-align: left; 
+	font-size: 13px; 
+}
+
+.footer-rightside { 
+	text-align: right; 
+}
+footer h2 { 
+	text-align: right; 
+	color: #fff;
+	font-size: 18px; 
+	font-weight: 600; 
+}
+footer h5 { 
+	text-align: right; 
+	color: #fff;
+	font-size: 13px; 
+}
+.footer-center h1 { 
+	text-align: center; 
+	font-size: 13px; 
+}
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { 
+	visibility: hidden; 
+}
+.bounceInLeft, .bounceInRight, .fadeInUp { 
+	visibility: visible; 
+}
+
+
