@@ -1,12 +1,12 @@
-## ArtisanWine 
+### ArtisanWine 
 Built a simple website for ArtisanWine. 
 
-## Technologies:
+### Technologies:
 * Photoshop
 * Bootstrap
 * CSS/HTML
 * JS
 
-## Launch
+### Launch
 * To run index.html
 
